@@ -1,0 +1,14 @@
+
+public class Node {
+	private Node[] nodes;
+	int n = 0;
+
+	public Node() {
+		this.nodes = new Node[10];
+	}
+	
+	public void add(Node n){
+		nodes[n++] = n;
+	}
+
+}

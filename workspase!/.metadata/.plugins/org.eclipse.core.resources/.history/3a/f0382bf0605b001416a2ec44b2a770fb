@@ -1,0 +1,9 @@
+
+public class Node {
+	private Node[] nodes;
+
+	public Node(Node[] nodes) {
+		this.nodes = = new Node[10];
+	}
+
+}
